@@ -16,6 +16,6 @@ public class atividade4 {
 
         System.out.printf("MEDIA = %.1f%n", media);
         
-        sc.close();
+        sc.close();a
     }
 }
