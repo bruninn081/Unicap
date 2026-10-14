@@ -1,0 +1,22 @@
+    @font-face {
+    font-family: 'Super Waffles';
+    src: url(Super\ Waffles.ttf);
+}
+
+h1 {
+    font-family: 'Super Waffles';
+}
+
+p {
+    font-family: 'Super Waffles';
+    text-align: center;
+    font-size: 1%;
+}
+
+a{ 
+    font-size: 100px;
+}
+
+a:hover {
+    color: red;
+}
