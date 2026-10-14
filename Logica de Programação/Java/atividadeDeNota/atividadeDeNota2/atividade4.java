@@ -1,4 +1,4 @@
-package atividadeDeNota.atividadeDeNota2;
+package atividadeDeNota2;
 
 import java.util.Scanner;
 
@@ -16,6 +16,6 @@ public class atividade4 {
 
         System.out.printf("MEDIA = %.1f%n", media);
         
-        sc.close();a
+        sc.close();
     }
 }

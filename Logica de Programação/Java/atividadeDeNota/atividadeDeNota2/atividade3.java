@@ -1,4 +1,4 @@
-package atividadeDeNota.atividadeDeNota2;
+package atividadeDeNota2;
 
 import java.util.Scanner;
 
