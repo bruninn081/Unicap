@@ -1,4 +1,4 @@
-package atividadeDeNota;
+package atividadeDeNota1;
 import java.util.Scanner;
 
 public class ConversorTemperatura {
