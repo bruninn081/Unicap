@@ -1,0 +1,16 @@
+PROJETO - NOVO FÍLER
+
+Site de uma academia (aberto para outras sugestões)
+
+Como vai funcionar, vai ter uma aba de como o usuário sobre qual o método de treino que ele gostaria de ter
+
+que vai ser separo por dias.
+ex: (2 dias na semana, 3 dias na semana, 4 dias na semana, e etc...)
+
+tem que existir uma aba que mostre como realizar cada exercício (pode ser um gif), já que o professor indicou não usar iframe.
+
+o treino pode ser feito por mim mesmo (Bruno)
+
+Na pratica, assim que entrar no site vai ter as as abas de dias ou modalidade de treino em imagens e ao clicar na imagem vai seguir para cada ponto especifico.
+
+
