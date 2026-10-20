@@ -6,5 +6,6 @@ public class TesteIgualdade1 {
         String b = "java";
 
         System.out.println("Com == ........: " + (a == b));
+        System.out.println("Com equals ....: " + a.equals(b));
     }
 }
