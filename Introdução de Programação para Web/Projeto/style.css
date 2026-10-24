@@ -1,0 +1,21 @@
+body {
+    background-color: whitesmoke;
+    margin: 0;
+    
+}
+
+header {
+    background-color: #10151A;
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 50px;
+}
+
+header > img {
+    color: white;
+}
+
+header > nav {
+    color: white;
+    text-align: right
+}
