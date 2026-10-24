@@ -9,13 +9,23 @@ header {
     padding-left: 100px;
     padding-right: 100px;
     height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+header > p {
+    color: white;
+
+    
+}
+
+header > p > span {
+    color: #4BC478;
+    
 }
 
 header > img {
     color: white;
-}
-
-header > nav {
-    color: white;
-    text-align: right
 }
