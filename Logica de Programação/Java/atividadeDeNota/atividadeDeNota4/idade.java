@@ -5,16 +5,18 @@ import java.util.Scanner;
 public class idade {
     public static void main (String[] args) {
         Scanner sc = new Scanner(System.in);
-        int v1, v2, v3, v4, v5;
+        int soma = 0;
+        int pessoas = 0;
 
-        v1 = sc.nextInt();
-        v2 = sc.nextInt();
-        v3 = sc.nextInt();
-        v4 = sc.nextInt(); //devo usar estrutura de repetição
-        v5 = sc.nextInt();
 
-        System.out.printf("%.2f%n", (double)(v1+v2+v3+v4)/4);
-
+        int idade = sc.nextInt();
+        
+        while (idade >= 0) {
+            soma = soma+idade;
+            pessoas++;
+            idade = sc.nextInt();
+        }
+        System.out.printf("%.2f%n", (double)soma/pessoas);
         sc.close();
     }
 }
