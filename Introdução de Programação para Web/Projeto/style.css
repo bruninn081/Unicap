@@ -12,20 +12,16 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
 }
 
 header > p {
     color: white;
-
-    
 }
 
-header > p > span {
-    color: #4BC478;
-    
+.halter {
+    background-image: url(imagens/Halter\ preto\ 10\ KG\ no\ piso\ da\ academia.png); 
+    background-size: 100vh;
+    background-repeat: no-repeat;
+    color: azure;
 }
 
-header > img {
-    color: white;
-}
