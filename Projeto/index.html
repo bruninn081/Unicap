@@ -8,50 +8,98 @@
 </head>
 <body>
     <header>
-        <p>FITLIFE</p>
+        <h1>FITLIFE</h1>
         <nav>
-            <a href="#">Início</a>
+            <a href="index.html">Início</a>
             <a href="#">Treinos</a>
-            <a href="#">Sobre</a>
-            <a href="#">Contato</a>
+            <a href="#">Deficit Calórico</a>
+            <a href="#">Suplementos</a>
         </nav> <!--Cabeçalho-->
     </header>
     <main>
-        <section>
-            <div class="halter">
     <!--Imagem do halter e garrafa-->
-                <div> <!--Texto-->
-                    <p>SEU OBJETIVO, NOSSO FOCO</p>
-                    <p>Mais saúde,<br>
-                    mais resultados.</p>
-                    <p>Treinos simples, eficientes e que se adaptam <br>
-                    à sua rotina. Comece hoje a construir a sua melhor versão.</p>
-                    <button>Ver planos de treino </button>
-                </div>
+        <div id="textoimagem"> <!--Texto-->
+            <p class="verde">SEU OBJETIVO, NOSSO FOCO</p>
+            <h2 class="branco">Mais saúde,<br>
+                mais resultados.</h2>  
+                <p class="branco">Treinos simples, eficientes e que se adaptam <br>
+                à sua rotina. Comece hoje a construir a sua melhor versão.</p>
+                <button class="botao">
+                    Ver planos de treino →
+                </button>
+        </div>
+        <div id="icones">
+            <div>
+                <img src="imagens/pagina01/halteres.png" alt="halter" height="60px" class="imagens">
+                <p>Treinos personalizados</p>
+                <p>Planos que se adaptam ao seu nível e objetivo</p>
             </div>
-        </section>
-        <section>
-            <div> <!--Icones-->
-                <div><!--Treino personalizados--></div>
-                <div><!--Acompanhamento--></div>
-                <div><!--Mais saúde--></div>
-                <div><!--Resultados reais--></div>
+            <div>
+                <img src="imagens/pagina01/calendario.png" alt="calendario" height="60px" class="imagens">
+                <p>Acompanhamento</p>
+                <p>Evolua no seu ritmo, com mais motivação</p>
             </div>
-        </section>
-            <section>
-                <div> <!--plano de treino-->
-                    <div>Ganhar Massa</div>
-                    <div>Emagrecer</div>
-                    <div>Manter a Saúde</div>
-                </div>
-            </section>
-       
+            <div>
+                <img src="imagens/pagina01/coração.png" alt="coração" height="60px" class="imagens">
+                <p>Mais saúde</p>
+                <p>Melhore seu condicionamento físico e mental</p>
+            </div>
+            <div>
+                <img src="imagens/pagina01/raio.png" alt="raio" height="60px" class="imagens">
+                <p>Resultados reais</p>
+                <p>Com constância, você chega mais longe</p>
+            </div>
+        </div>
+        <div id="navegacao">
+            <div>
+                <img src="imagens/pagina01/musculação.jpg " alt="musculação" height="200px" class="imagens">
+                <p>Porque fazer musculação?</p>
+                <p>A importância da musculação.</p>
+                <p><a href="#">Ver mais →</a></p>
+            </div>
+            <div>
+                <img src="imagens/pagina01/deficitcalorico.jpg" alt="deficit calorico" height="200px" class="imagens">
+                <p>Deficit Calórico</p>
+                <p>A combinação de musculação e dieta e seus benefícios</p>
+                <p><a href="#">Ver mais →</a></p>
+            </div>
+            <div>
+                <img src="imagens/pagina01/suplementação.jpg" alt="suplementos" height="200px" class="imagens">
+                <p>Potencialize seus ganhos</p>
+                <p>Triplique seus ganhos com o uso de suplementos.</p>
+                <p><a href="#">Ver mais →</a></p>
+            </div>
+        </div>
     </main>
-    <section> <!-- Pronto para começar?-->
-
-    </section>
     <footer>
-
+        <div id="forms">
+            <div class="forms">
+                <h3>Pronto para começar?</h3>
+                <form action="" method="post">
+                    <div>
+                        <label for="nome" class="label">Nome</label>
+                        <input type="text" id="fnome" name="nome"  class="input">
+                    </div>
+                    <div>
+                        <label for="email" class="label">Email</label>
+                        <input type="email" name="email" id="femail"  class="input">
+                    </div>
+                    <div>
+                        <label for="texto" class="label">Assunto
+                        </label>
+                        <input type="text" id="ftexto" name="texto"  class="input">
+                    </div>
+                    <button class="botao">
+                        <p>ENVIAR MENSAGEM NO WHATSAPP</p>
+                    </button>
+                </form>
+            </div>
+        </div>
+        <div class="creditos">
+            <p> Projeto realizado por: 
+                <a href="https://www.linkedin.com/in/bruno-oliveira-056923248/" target="_blank"><img src="imagens/pagina01/linkedin.png" alt="logo linkedin" height="20px"> Bruno Oliveira</a> e <a href="https://www.linkedin.com/in/daniel-expedito-7985722a0/" target="_blank"> <img src="imagens/pagina01/linkedin.png" alt="logo linkedin" height="20px"> Daniel Expedito</a>
+            </p> 
+        </div>
     </footer>
 </body>
 </html>

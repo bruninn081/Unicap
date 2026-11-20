@@ -1,27 +1,177 @@
+/* FOLHA 01*/
+
 body {
-    background-color: whitesmoke;
+    background-color: #FCFCFC;
     margin: 0;
-    
 }
 
 header {
     background-color: #10151A;
     padding-left: 100px;
     padding-right: 100px;
-    height: 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-header > p {
-    color: white;
+header > h1 {
+    color: #59E38C;
 }
 
-.halter {
-    background-image: url(imagens/Halter\ preto\ 10\ KG\ no\ piso\ da\ academia.png); 
-    background-size: 100vh;
-    background-repeat: no-repeat;
-    color: azure;
+header > nav > a {
+    text-decoration: none;
+    color: #FCFCFC;
+    padding-left: 30px;
 }
+
+header > nav > a:hover {
+    color: #59E38C;
+    background-color: #59e38c4f;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+#textoimagem {
+    padding-top: 60px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-image: url(imagens/pagina01/fundo.jpg); 
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.verde {
+    color: #59E38C;
+    font-weight: bold;
+}
+
+#textoimagem > h2 {
+    font-size: 60px;
+    margin: 20px 0 20px 0;
+}
+
+.branco {
+    color: #FCFCFC;
+}
+
+.botao {
+    background-color: #59E38C;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
+.botao:hover {
+    background-color: #FCFCFC;
+    color: #10151A;
+    font-weight: bolder;
+}
+
+#icones {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 60px;
+    display: flex;
+    text-align: center;
+}
+
+.imagens {
+    background-color: #59E38C;
+    border-radius: 20px;
+}
+
+#icones > div{
+    margin: auto;
+}
+
+#navegacao {
+    padding: 60px 100px 0px 100px;
+    display: flex;
+    text-align: center;
+}
+
+#navegacao > div {
+    margin: auto;
+}
+
+#navegacao > div > p > a {
+    text-decoration: none;
+    color: #10151A; 
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#navegacao > div > p > a:hover {
+    color: #FCFCFC;
+    background-color: #10151A;
+    padding: 10px;
+    border-radius: 30px;   
+}
+
+#forms {
+    background-image: url(imagens/pagina01/fundo.jpg);
+    color: #FCFCFC;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 15px;
+    background-size: 100%;
+    background-position: center;
+    padding-top: 15px;
+}
+
+#forms > h3 {
+    padding-top: 15px;
+    font-size: 30px;
+    margin-top: 0px;
+}
+
+.forms {
+    background-color: #10151A;
+    width: 400px;
+    height: 377px;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+}
+
+.input {
+    width: 300px;
+    height: 35px;
+    font-size: 16px;
+    padding: 5px;
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.creditos {
+    text-align: center;
+    background-color: #10151A;
+    padding: 15px;
+    color: #FCFCFC;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.creditos > p {
+    margin: 0px;
+}
+
+.creditos > p > a {
+    color: #0A66C2;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.creditos > p > a:hover {
+    color: #10151A;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 30px;
+}
+
 
