@@ -11,7 +11,7 @@ document.getElementById("formulario").addEventListener("submit", function(event)
         alert("Favor, preencher todos os campos");
         return;
     }
-    let telefone = "5581993844985";
+    let telefone = "5581999999999";
 
     let mensagem = `Olá! Meu nome é ${nome}.
                     Meu email é ${email}.
