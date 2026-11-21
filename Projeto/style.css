@@ -87,12 +87,13 @@ header > nav > a:hover {
 
 #navegacao {
     padding: 60px 100px 0px 100px;
-    display: flex;
     text-align: center;
 }
 
 #navegacao > div {
     margin: auto;
+    display: inline-block;
+    padding-left: 70px;
 }
 
 #navegacao > div > p > a {
