@@ -35,7 +35,7 @@ header > nav > a:hover {
     padding-top: 60px;
     padding-left: 100px;
     padding-right: 100px;
-    background-image: url(imagens/pagina01/fundo.jpg); 
+    background-image: url(imagens/paginaPrincipal/fundo.jpg); 
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -110,7 +110,7 @@ header > nav > a:hover {
 }
 
 #forms {
-    background-image: url(imagens/pagina01/fundo.jpg);
+    background-image: url(imagens/paginaPrincipal/fundo.jpg);
     color: #FCFCFC;
     font-weight: bold;
     text-align: center;
